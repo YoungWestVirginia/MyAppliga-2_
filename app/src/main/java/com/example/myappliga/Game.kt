@@ -1,6 +1,6 @@
 package com.example.myappliga
 
-class Game(private val hero: Hero, private val enemy: Enemy) : GameActions {
+class Game(private val hero: Hero, private val enemy: Enemy) : GameActions() {
 
     private val maxRounds = 6 // Limiting the game to 6 rounds
 
